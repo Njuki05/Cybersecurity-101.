@@ -1,1 +1,26 @@
 Networking Basics.
+This folder covers Networking topics learnt through Jeremy's IT Lab on Youtube.
+
+Computer Network is a Digital communications network which allows nodes to share resources.
+Client is a Device that accesses a service made available by a server.
+Server is a Device that provides functions or services for  a client.
+
+NETWORKING DEVICES
+SWITCHES
+These are devices used to forward traffic within a LAN.
+They have many interfaces/ports for end hosts to connect.
+They provide connectivity to hosts within the same LAN.
+They do not provide connectivity between LANs or over the internet.
+
+ROUTERS
+They have fewer network intrefaces than switches.
+They are used to send data over the internet.
+
+FIREWALL
+These are special network security devices that control network traffic entering and exiting your network.
+They can be inside or outside your network.
+They monitor and control network traffic based on configured rules.
+They are known are Next Generation Firewalls when they inlcude more modern and advanced filtering capabilities.
+*Host-Based Firewalls etc etc
+*Next Generation Firewalls.
+
