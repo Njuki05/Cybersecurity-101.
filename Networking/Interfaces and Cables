@@ -1,0 +1,51 @@
+Ethernet -Collection of Network protocols and standards.
+
+Unshielded Twisted Pair Cables (UTP)
+These are copper cables used in Ethernet Standards.
+They have no metallic shield, making them vulnerable to electrical interference.
+Support distances upto 100m.
+
+Full duplex transmissions means both pins will send and receive data at the same time
+and no problems eg collisions will occur because separate wires to send and receive data.
+
+Straight Through Cable
+A copper cable has two RJ-45 connectors one on each end.
+They are called so since Pin 1 connects to Pin 1, Pin 2 to Pin 2 etc.
+
+Crossover Cable
+Connects Pin 1 to Pin 3
+""       Pin 2 to Pin 6 etc.
+
+Auto MDI-X
+Allows devices to automatically detect which pins their neighbor is transmitting data on and then adjust which pins they use to transmit and receive data.
+
+Fiber Optic Connections
+Send light over glass fibers.
+Two types: Multimode and Single mode Fiber.
+
+Multimode Fiber
+*Core diameter is wider than single mode fiber.
+*Allows multiple angles (nodes) of light waves to enter the fiberglass core.
+*Allows longer cables than UTP, but shorter cables than single mode fiber.
+*Cheaper than single-mode fiber (due to cheaper LED-based SFP transmitters.)
+
+Single Mode Fiber
+*Core diameter is narrower than multimode fiber.
+*Light enters at a single angle (node) from a laser-based transmitter.
+*Allows longer cables than UTP & multimode fiber.
+*More expensive than multimode fiber (due to more expensive laser-based SFP transmitters.)
+
+UTP vs Fiber Optic
+UTP
+*Has lower cost than Fiber Optic
+*Shorter maximum distance than fiber optic (~100m)
+*Vulnerable to Electromagnetic Interference.
+*RJ45 ports used with UTP are cheaper than those used with SFP ports.
+*Emit a faint signal outside of the cable which cam be copied (Security risk).
+
+Fiber Optic
+*Higher cost than UTP.
+*Longer maximum distance than UTP.
+*Not vulnerable to Electromagnetoc Interference.
+*SFP ports are more expemsive than RJ45 ports (single mode is more expensive than multimode.)
+*Doesn't emit any signal outside the cable (No security risk)
