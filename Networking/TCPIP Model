@@ -1,0 +1,44 @@
+A protocol is a set of rules defining how data should be communicated between devices on a network.
+A Standard is an agreed upon specification that describes how a protocol or technology should work.
+* Etherent (802.3)
+* Wi-Fi (802.11)
+
+TCPIP Layers
+1. Application Layer
+Provides protocols for communication between application processes, create and interpret the data.
+This is where network communications meet applications.
+It defines how application processes format, send and interpret data.
+The protocols in this layer define message formats and rules for speecific tasks eg;
+  #Browsing web pages (HTTP/HTTPS)
+  #Transferring files (FTP/TFTP)
+  #Sending/receiving email (SMTP, POP3,IMAP)
+
+2. Transport Layer
+This layer provides end to end communication between application processes using port numbers.
+Runs mainly on communicating hosts
+Protocols on this layer are TCP & UDP
+Web Server: port 80
+File Server: port 21
+
+3. Internet Layer
+This  layer provides end to end communication between hosts across networks using IP addresses and routers
+Routers operate here, using the message destination IP address to forward the message towrads its final detination host.
+Protocols: IP (IPv4 and IPv6)
+           ICMP
+
+4. Network Layer
+This layer provides hop to hop delivery within a local network using MAC addresses and switches.
+A hop is a one step along the path between 2 devices.
+* From one router to host, to the next router or host in the path.
+* Switches don't count, a swithc just extends the lacl network, allowing multiple devices to connect.
+Uses MAC addresses to identify interfaces.
+
+5. Physical Layer
+This layer sends bits as electrical, optical or radio signals over the physical medium.
+*Cables (copper, UTP, fiber optic, Wi-Fi radios and antennas, NICs)>
+
+Data + L4 header = Segment (TCP) and Datagram (UDP). (L4PDU)
+Data + L4 header + L3 header = Packet. (L3PDU).
+Data + L4 header + L3 header + L2 header = Frame (L2PDU).
+
+Payloads are contents of each PDU (Everything encapsulated by that layer).
